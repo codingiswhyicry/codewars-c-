@@ -5,8 +5,14 @@
 int makeNegative(int num)
 {
     int negative;
+    
     if (num > 0) {
         negative = 0 - num;
     }
+    
+    else {
+        negative = num;
+    }
+    
     return negative;
 }
